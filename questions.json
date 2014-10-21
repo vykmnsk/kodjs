@@ -1,0 +1,30 @@
+[
+  {
+      "type" : "expand",
+      "message" : "Che delaem?",
+      "name" : "operation",
+      "choices" : [
+        {
+          "key" : "r",
+          "name" : "Raskodirovat",
+          "value" : "decode"
+        },
+        {
+          "key" : "z",
+          "name" : "Zakodirovat",
+          "value" : "encode"
+        }
+      ]
+    },
+    {
+      "type" : "password",
+      "message" : "Parol?",
+      "name" : "password"
+    },
+    {
+      "type" : "confirm",
+      "message" : "Proceed?",
+      "name" : "doit",
+      "default" : true
+    }
+]

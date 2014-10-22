@@ -19,12 +19,6 @@
     {
       "type" : "password",
       "message" : "Parol?",
-      "name" : "password"
-    },
-    {
-      "type" : "confirm",
-      "message" : "Proceed?",
-      "name" : "doit",
-      "default" : true
+      "name" : "pwd"
     }
 ]

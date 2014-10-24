@@ -1,24 +1,29 @@
 [
   {
-      "type" : "expand",
-      "message" : "Che delaem?",
-      "name" : "operation",
-      "choices" : [
-        {
-          "key" : "r",
-          "name" : "Raskodirovat",
-          "value" : "decode"
-        },
-        {
-          "key" : "z",
-          "name" : "Zakodirovat",
-          "value" : "encode"
-        }
-      ]
-    },
-    {
-      "type" : "password",
-      "message" : "Parol?",
-      "name" : "pwd"
-    }
+    "type" : "expand",
+    "message" : "Che delat",
+    "name" : "operation",
+    "choices" : [
+      {
+        "key" : "r",
+        "name" : "Raskodirovat",
+        "value" : "decode"
+      },
+      {
+        "key" : "z",
+        "name" : "Zakodirovat",
+        "value" : "encode"
+      }
+    ]
+  },
+  {
+    "type" : "input",
+    "message" : "File",
+    "name" : "file"
+  },
+  {
+    "type" : "password",
+    "message" : "Parol",
+    "name" : "pwd"
+  }
 ]
